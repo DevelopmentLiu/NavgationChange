@@ -15,6 +15,10 @@
 		636D51441D2CFEE8009DB9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636D51421D2CFEE8009DB9B1 /* LaunchScreen.storyboard */; };
 		636D514F1D2CFEE8009DB9B1 /* __NavgationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636D514E1D2CFEE8009DB9B1 /* __NavgationTests.m */; };
 		636D515A1D2CFEE8009DB9B1 /* __NavgationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636D51591D2CFEE8009DB9B1 /* __NavgationUITests.m */; };
+		636D516A1D2CFF19009DB9B1 /* mainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 636D51681D2CFF19009DB9B1 /* mainTableViewCell.m */; };
+		636D516B1D2CFF19009DB9B1 /* mainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636D51691D2CFF19009DB9B1 /* mainTableViewCell.xib */; };
+		636D51701D2D0081009DB9B1 /* showTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 636D516E1D2D0081009DB9B1 /* showTableViewCell.m */; };
+		636D51711D2D0081009DB9B1 /* showTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636D516F1D2D0081009DB9B1 /* showTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		636D51551D2CFEE8009DB9B1 /* 渐变NavgationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "渐变NavgationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636D51591D2CFEE8009DB9B1 /* __NavgationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __NavgationUITests.m; sourceTree = "<group>"; };
 		636D515B1D2CFEE8009DB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636D51671D2CFF19009DB9B1 /* mainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableViewCell.h; sourceTree = "<group>"; };
+		636D51681D2CFF19009DB9B1 /* mainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableViewCell.m; sourceTree = "<group>"; };
+		636D51691D2CFF19009DB9B1 /* mainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainTableViewCell.xib; sourceTree = "<group>"; };
+		636D516D1D2D0081009DB9B1 /* showTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showTableViewCell.h; sourceTree = "<group>"; };
+		636D516E1D2D0081009DB9B1 /* showTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showTableViewCell.m; sourceTree = "<group>"; };
+		636D516F1D2D0081009DB9B1 /* showTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = showTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		636D51331D2CFEE8009DB9B1 /* 渐变Navgation */ = {
 			isa = PBXGroup;
 			children = (
+				636D516C1D2CFF26009DB9B1 /* View */,
 				636D51371D2CFEE8009DB9B1 /* AppDelegate.h */,
 				636D51381D2CFEE8009DB9B1 /* AppDelegate.m */,
 				636D513A1D2CFEE8009DB9B1 /* ViewController.h */,
@@ -138,6 +149,19 @@
 				636D515B1D2CFEE8009DB9B1 /* Info.plist */,
 			);
 			path = "渐变NavgationUITests";
+			sourceTree = "<group>";
+		};
+		636D516C1D2CFF26009DB9B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				636D51671D2CFF19009DB9B1 /* mainTableViewCell.h */,
+				636D51681D2CFF19009DB9B1 /* mainTableViewCell.m */,
+				636D51691D2CFF19009DB9B1 /* mainTableViewCell.xib */,
+				636D516D1D2D0081009DB9B1 /* showTableViewCell.h */,
+				636D516E1D2D0081009DB9B1 /* showTableViewCell.m */,
+				636D516F1D2D0081009DB9B1 /* showTableViewCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +269,9 @@
 			files = (
 				636D51441D2CFEE8009DB9B1 /* LaunchScreen.storyboard in Resources */,
 				636D51411D2CFEE8009DB9B1 /* Assets.xcassets in Resources */,
+				636D516B1D2CFF19009DB9B1 /* mainTableViewCell.xib in Resources */,
 				636D513F1D2CFEE8009DB9B1 /* Main.storyboard in Resources */,
+				636D51711D2D0081009DB9B1 /* showTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +298,9 @@
 			files = (
 				636D513C1D2CFEE8009DB9B1 /* ViewController.m in Sources */,
 				636D51391D2CFEE8009DB9B1 /* AppDelegate.m in Sources */,
+				636D516A1D2CFF19009DB9B1 /* mainTableViewCell.m in Sources */,
 				636D51361D2CFEE8009DB9B1 /* main.m in Sources */,
+				636D51701D2D0081009DB9B1 /* showTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

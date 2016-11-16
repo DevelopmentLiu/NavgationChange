@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="showTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grQ-lM-VX2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="5UR-rB-Abw">
+                                <rect key="frame" x="15" y="27" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="6Af-bR-OBh"/>
+                                    <constraint firstAttribute="height" constant="60" id="W9b-iL-wMR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="搞笑我是认真的" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-G6-I4z">
+                                <rect key="frame" x="89" y="15" width="91" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3r5-G6-Iye"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1分钟前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRQ-ba-b6c">
+                                <rect key="frame" x="89" y="46" width="43" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="来自微博 weibo.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTW-F6-02i">
+                                <rect key="frame" x="139" y="43" width="114" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Y4o-Ff-KLn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="这是一条装逼内容，然后就没然后了" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67F-UI-h55">
+                                <rect key="frame" x="89" y="71" width="224" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7cB-mC-WDx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gTW-F6-02i" firstAttribute="top" secondItem="grQ-lM-VX2" secondAttribute="top" constant="43" id="0oo-Co-NpN"/>
+                            <constraint firstItem="67F-UI-h55" firstAttribute="top" secondItem="rRQ-ba-b6c" secondAttribute="bottom" constant="10" id="4lP-qb-39r"/>
+                            <constraint firstItem="rRQ-ba-b6c" firstAttribute="top" secondItem="dqR-G6-I4z" secondAttribute="bottom" constant="1" id="AB0-WO-SlN"/>
+                            <constraint firstItem="dqR-G6-I4z" firstAttribute="leading" secondItem="grQ-lM-VX2" secondAttribute="leading" constant="89" id="EjO-l5-0Bs"/>
+                            <constraint firstItem="67F-UI-h55" firstAttribute="leading" secondItem="5UR-rB-Abw" secondAttribute="trailing" constant="14" id="G4b-7s-b10"/>
+                            <constraint firstItem="rRQ-ba-b6c" firstAttribute="leading" secondItem="5UR-rB-Abw" secondAttribute="trailing" constant="14" id="Wbd-Yd-kOI"/>
+                            <constraint firstItem="5UR-rB-Abw" firstAttribute="centerY" secondItem="grQ-lM-VX2" secondAttribute="centerY" id="dTw-4y-qpS"/>
+                            <constraint firstItem="dqR-G6-I4z" firstAttribute="top" secondItem="grQ-lM-VX2" secondAttribute="top" constant="15" id="hJX-Z9-cjC"/>
+                            <constraint firstItem="5UR-rB-Abw" firstAttribute="leading" secondItem="grQ-lM-VX2" secondAttribute="leading" constant="15" id="hw7-DC-VQf"/>
+                            <constraint firstItem="5UR-rB-Abw" firstAttribute="leading" secondItem="grQ-lM-VX2" secondAttribute="leading" constant="10" id="rSR-cm-O9J"/>
+                            <constraint firstItem="5UR-rB-Abw" firstAttribute="top" secondItem="grQ-lM-VX2" secondAttribute="top" constant="15" id="u90-qd-TWp"/>
+                            <constraint firstItem="gTW-F6-02i" firstAttribute="leading" secondItem="rRQ-ba-b6c" secondAttribute="trailing" constant="7" id="vcR-FU-D1d"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rSR-cm-O9J"/>
+                                <exclude reference="u90-qd-TWp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="grQ-lM-VX2" secondAttribute="bottom" constant="-8" id="Jb7-dg-ikD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="grQ-lM-VX2" secondAttribute="trailing" constant="-8" id="KKj-Zo-ueT"/>
+                    <constraint firstItem="grQ-lM-VX2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="aqS-pi-3XY"/>
+                    <constraint firstItem="grQ-lM-VX2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="chZ-zL-bEQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="340" y="369.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="title" width="1024" height="1024"/>
+    </resources>
+</document>
